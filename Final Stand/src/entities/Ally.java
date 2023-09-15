@@ -20,6 +20,7 @@ public abstract class Ally extends Entities {
 	protected boolean lockedInAnimation = false;
 	protected boolean attackChecked = false;
 	protected boolean alive = true;
+	protected boolean hoopa = false;
 
 	public Ally(float x, float y, int w, int h, Playing playing, int allyType) {
 		super(x, y, w, h, playing);
