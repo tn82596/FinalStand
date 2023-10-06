@@ -68,11 +68,11 @@ public class EnemyManager {
 		for (Skeleton s : skeletons)
 			if (s.isAlive() && !s.isDeadAni())
 				if (attackBox.intersects(s.getHitbox())) {
+					damageDone += s.hurt(damage, knockback);
 					if (statusEffect == FREEZE)
 						s.freeze();
 					else if (statusEffect == BLEED)
 						s.bleed();
-					damageDone += s.hurt(damage, knockback);
 					if (attackType == SINGLE)
 						return damageDone;
 				}
