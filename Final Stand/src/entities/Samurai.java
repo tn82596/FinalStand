@@ -66,9 +66,9 @@ public class Samurai extends Player {
 		
 		ultChargeReq = 1000;
 
-		ability1 = CYCLONE;
+		ability1 = ICE_ARROWS_ACTIVATE;
 		ability2 = MYSTICAL_ARROW;
-		ability1UI = CYCLONE_UI;
+		ability1UI = ICE_ARROWS_UI;
 		ability2UI = MYSTICAL_ARROW_UI;
 
 		hitboxOffsetX = HITBOX_OFFSET_X;
